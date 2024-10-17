@@ -9,8 +9,7 @@ function buscarEndereco() {
             document.getElementById('bairro').value = dados.bairro
             document.getElementById('cidade').value = dados.localidade
             document.getElementById('uf').value = dados.uf
-            document.getElementById('ddd').value = dados.ddd;
-        
+            document.getElementById('ddd').value = dados.ddd;        
         })
         .catch(error => console.error('Erro ao buscar o endereço:', error))
 }
